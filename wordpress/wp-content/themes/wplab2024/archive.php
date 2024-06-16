@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <div>
   <h2>Archive</h2>
   <?php 
@@ -11,3 +12,4 @@
     }
   ?>
 </div>
+<?php get_footer(); ?>
