@@ -9,6 +9,10 @@
   <div>
     <?php the_content(); ?>
   </div>
+  <div>
+    <h2>抜粋</h2>
+    <?php the_excerpt(); ?>
+  </div>
   <?php
       }
     }
