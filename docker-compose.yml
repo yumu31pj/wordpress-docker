@@ -14,7 +14,7 @@ services:
    depends_on:
      - db
      - phpmyadmin
-   restart: always
+   restart: no
    ports:
      - 8080:80
 
